@@ -110,3 +110,7 @@ ggplot(plot_data, aes(x = Predicted, y = Residual)) +
 #variable importance
 VI = varImp(model_list$glmnet, scale = FALSE)
 plot(VI)
+
+
+#for classification problems check 
+#https://cran.r-project.org/web/packages/caret/vignettes/caret.html
