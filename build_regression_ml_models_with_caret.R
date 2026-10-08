@@ -114,3 +114,8 @@ plot(VI)
 
 #for classification problems check 
 #https://cran.r-project.org/web/packages/caret/vignettes/caret.html
+
+
+# Resampling
+resamples = resamples(model_list)
+dotplot(resamples)
