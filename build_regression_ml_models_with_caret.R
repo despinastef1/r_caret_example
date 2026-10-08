@@ -117,6 +117,8 @@ plot(VI)
 
 
 # Resampling
+#collects the performance metrics from the cross validation results of all models
 resamples = resamples(model_list)
+#create a graphical comparison of the models' performance across the cross validation folds
 dotplot(resamples)
 summary(resamples)
