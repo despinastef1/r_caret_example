@@ -119,3 +119,4 @@ plot(VI)
 # Resampling
 resamples = resamples(model_list)
 dotplot(resamples)
+summary(resamples)
